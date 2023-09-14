@@ -9,7 +9,7 @@ import { Toaster } from 'react-hot-toast';
 import { useEffect, useContext } from 'react';
 import axios from 'axios';
 import { Context, server } from './main';
-import Loader from './components/loader';
+import Loader from './components/Loader';
 
 function App() {
   const { user,setUser} = useContext(Context);
