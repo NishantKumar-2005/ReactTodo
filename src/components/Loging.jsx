@@ -48,6 +48,9 @@ const Loging = () => {
     const handleDescriptionChange = (e) => {
     setPassword(e.target.value);
     }
+    if(Loading===true){
+      return <Navigate to={"/loader"}/>
+    }
     if(isAthenticated===true){
       return <Navigate to={"/"}/>
     }

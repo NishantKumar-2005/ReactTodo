@@ -9,6 +9,7 @@ import { Toaster } from 'react-hot-toast';
 import { useEffect, useContext } from 'react';
 import axios from 'axios';
 import { Context, server } from './main';
+import Loader from './components/loader';
 
 function App() {
   const { user,setUser} = useContext(Context);
@@ -37,6 +38,7 @@ function App() {
             <Route path="/register" element={<Register/>} />
             <Route path='/loging' element={<Loging />} />
             <Route path='/profile' element={<Profile/>}/>
+            <Route path='/loader' element={<Loader/>}/>
           </Routes>
           <Toaster />
         </BrowserRouter>
