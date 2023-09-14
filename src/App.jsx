@@ -4,7 +4,7 @@ import Container from './components/container';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Loging from './components/Loging';
 import Register from './components/Register';
-import Profile from './components/profile';
+import Profile from './components/Profile';
 import { Toaster } from 'react-hot-toast';
 import { useEffect, useContext } from 'react';
 import axios from 'axios';
