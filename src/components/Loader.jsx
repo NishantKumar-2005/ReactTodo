@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { Context } from '../main';
 import { Navigate } from 'react-router-dom';
-import videoSource from 'E:/college MSIT/VITE React TODO/todoapp/src/components/Fading line.gif';
+import videoSource from '/src/components/Fading line.gif';
 
 
 
