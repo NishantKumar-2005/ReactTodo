@@ -202,3 +202,10 @@ h1{
   cursor: pointer;
   outline: none;
 }
+.Loader>img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 237px;
+}

@@ -1,6 +1,9 @@
 import React, { useContext } from 'react'
 import { Context } from '../main';
 import { Navigate } from 'react-router-dom';
+import videoSource from 'E:/college MSIT/VITE React TODO/todoapp/src/components/Fading line.gif';
+
+
 
 const Loader = () => {
     const {isAthenticated}=useContext(Context);
@@ -9,7 +12,7 @@ const Loader = () => {
       }
   return (
     <div className='Loader'>
-        <h1>loader</h1>
+        <img src={videoSource} alt="Loading GIF" />
     </div>
   )
 }
