@@ -209,3 +209,34 @@ h1{
   position: relative;
   top: 237px;
 }
+@media screen and (max-width: 768px) {
+  nav {
+    justify-content: center;
+  }
+  
+  .logout,
+  nav>a {
+    margin: 6px;
+    left: 1px;
+  }
+  
+  .inputarea {
+    width: 90%;
+    margin: 10px;
+  }
+  
+  .form>input,
+  .form>textarea {
+    width: 75%;
+  }
+  
+  button {
+    width: 75%;
+  }
+  
+  .Task button,
+  .Task p,
+  span {
+    width: 100%;
+  }
+}

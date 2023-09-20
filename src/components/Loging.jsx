@@ -86,8 +86,8 @@ const Loging = () => {
     cursor: 'pointer',
     outline: 'none',
     position: 'absolute',
-    top: '237px',
-    right: '-82px',
+    top: '60%',
+    right: '-18%',
     zIndex:'1',
     transform: 'translateY(-50%)',
   }}
