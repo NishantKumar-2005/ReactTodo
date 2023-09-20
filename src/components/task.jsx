@@ -6,7 +6,7 @@ const Task=({titel,Discribtion,id,isCompeleted,UpdateHandler,DeleteHandler})=>{
         <h1>Task</h1>
         <p>{titel}</p>
         <span>{Discribtion}</span>
-        <input type="checkbox" onChange={()=>UpdateHandler(id)} value={isCompeleted} />
+        <input type="checkbox" onChange={()=>UpdateHandler(id)} checked={isCompeleted} />
         <button type='submit' onClick={()=>DeleteHandler(id)}>REMOVE</button>
       </div>
       );
